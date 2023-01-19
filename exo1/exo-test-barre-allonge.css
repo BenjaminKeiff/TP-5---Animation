@@ -6,14 +6,13 @@
     text-align: center;
     transition: 3s;
     width: 75px;
-    border-radius: 25%;
+    border-radius: 15px;
 }
 
 .test:hover {
     background-color: #111111;
     height: 750px;
     color: blanchedalmond;
-    border-radius: 5%;
 }
 
 

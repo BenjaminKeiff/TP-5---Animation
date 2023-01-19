@@ -1,3 +1,11 @@
+p {
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    margin: auto;
+    text-shadow: 1px 1px 1px black;
+}
+
 #barre {
     display: flex;
     flex-direction: column;
@@ -6,7 +14,7 @@
     border: 1px solid black;
     top: 50px;
     left: 50px;
-    background-color: black;
+    background-color: rgb(184, 183, 183);
 }
 
 .ball1 {
@@ -14,231 +22,247 @@
     width: 50px;
     height: 50px;
     border: 1px solid black;
-    background-color: gray;
-    border-radius: 50%;
+    border-radius: 25%;
     position: relative;
-    -webkit-animation: ball1 5s linear infinite;
+    -webkit-animation: ball1 7s linear infinite;
 }
 
 @keyframes ball1 {
+
     0% {
-        background-color: green;
-        top: 0px;
-        left: 0px;
+        background-color: blue;
+        top: 10px;
+        left: 10px;
+        -webkit-transform: rotate(0deg);
     }
     25% {
         background-color: green;
-        top: 0px;
-        left: 1450px;
+        top: 10px;
+        left: 1540px;
     }    
     50% {
-        background-color: red;
-        top: 650px;
-        left: 1450px;
+        background-color: yellow;
+        top: 740px;
+        left: 1540px;
     }
     75% {
-        background-color: red;
-        top: 650px;
-        left: 0px;
+        background-color: orange;
+        top: 740px;
+        left: 10px;
     }
     100% {
-        background-color: green;
-        top: 0px;
-        left: 0px;
+        background-color: red;
+        top: 10px;
+        left: 10px;
+        -webkit-transform: rotate(360deg);
     }
 }
 
-.ball2 {
+ .ball2 {
     display: flex;
-    width: 150px;
-    height: 150px;
+    width: 50px;
+    height: 50px;
     border: 1px solid black;
-    background-color: gray;
-    border-radius: 50%;
-    position: relative;
-    -webkit-animation: ball2 5s linear infinite;
+    border-radius: 25%;
+    position: absolute;
+    -webkit-animation: ball2 7s linear infinite;
+    animation-delay: 200ms;
 }
 
 @keyframes ball2 {
     0% {
-        background-color: green;
-        top: 0px;
-        left: 0px;
+        background-color: blue;
+        top: 20px;
+        left: 20px;
+        -webkit-transform: rotate(0deg);
     }
     25% {
         background-color: green;
-        top: 0px;
-        left: 1450px;
+        top: 20px;
+        left: 1550px;
     }    
     50% {
-        background-color: red;
-        top: 650px;
-        left: 1450px;
+        background-color: yellow;
+        top: 750px;
+        left: 1550px;
     }
     75% {
-        background-color: red;
-        top: 650px;
-        left: 0px;
+        background-color: orange;
+        top: 750px;
+        left: 20px;
     }
     100% {
-        background-color: green;
-        top: 0px;
-        left: 0px;
+        background-color: red;
+        top: 20px;
+        left: 20px;
+        -webkit-transform: rotate(360deg);
     }
 }
 
 .ball3 {
     display: flex;
-    width: 150px;
-    height: 150px;
+    width: 50px;
+    height: 50px;
     border: 1px solid black;
-    background-color: gray;
-    border-radius: 50%;
-    position: relative;
-    -webkit-animation: ball3 5s linear infinite;
+    border-radius: 25%;
+    position: absolute;
+    -webkit-animation: ball3 7s linear infinite;
+    animation-delay: 400ms;
+
 }
 
 @keyframes ball3 {
     0% {
-        background-color: green;
-        top: 0px;
-        left: 0px;
+        background-color: blue;
+        top: 20px;
+        left: 20px;
+        -webkit-transform: rotate(0deg);
     }
     25% {
         background-color: green;
-        top: 0px;
-        left: 1450px;
+        top: 20px;
+        left: 1550px;
     }    
     50% {
-        background-color: red;
-        top: 650px;
-        left: 1450px;
+        background-color: yellow;
+        top: 750px;
+        left: 1550px;
     }
     75% {
-        background-color: red;
-        top: 650px;
-        left: 0px;
+        background-color: orange;
+        top: 750px;
+        left: 20px;
     }
     100% {
-        background-color: green;
-        top: 0px;
-        left: 0px;
+        background-color: red;
+        top: 20px;
+        left: 20px;
+        -webkit-transform: rotate(360deg);
     }
 }
 
 .ball4 {
     display: flex;
-    width: 150px;
-    height: 150px;
+    width: 50px;
+    height: 50px;
     border: 1px solid black;
-    background-color: gray;
-    border-radius: 50%;
-    position: relative;
-    -webkit-animation: ball4 5s linear infinite;
+    border-radius: 25%;
+    position: absolute;
+    -webkit-animation: ball4 7s linear infinite;
+    animation-delay: 600ms;
+
 }
 
 @keyframes ball4 {
     0% {
-        background-color: green;
-        top: 0px;
-        left: 0px;
+        background-color: blue;
+        top: 20px;
+        left: 20px;
+        -webkit-transform: rotate(0deg);
     }
     25% {
-        background-color: green;
-        top: 0px;
-        left: 1450px;
+        background-color:green;
+        top: 20px;
+        left: 1550px;
     }    
     50% {
-        background-color: red;
-        top: 650px;
-        left: 1450px;
+        background-color:yellow;
+        top: 750px;
+        left: 1550px;
     }
     75% {
-        background-color: red;
-        top: 650px;
-        left: 0px;
+        background-color:orange;
+        top: 750px;
+        left: 20px;
     }
     100% {
-        background-color: green;
-        top: 0px;
-        left: 0px;
+        background-color:red;
+        top: 20px;
+        left: 20px;
+        -webkit-transform: rotate(360deg);
     }
 }
 
 .ball5 {
     display: flex;
-    width: 150px;
-    height: 150px;
+    width: 50px;
+    height: 50px;
     border: 1px solid black;
-    background-color: gray;
-    border-radius: 50%;
-    position: relative;
-    -webkit-animation: ball5 5s linear infinite;
+    border-radius: 25%;
+    position: absolute;
+    -webkit-animation: ball5 7s linear infinite;
+    animation-delay: 800ms;
+
 }
 
 @keyframes ball5 {
     0% {
-        background-color: green;
-        top: 0px;
-        left: 0px;
+        background-color: blue;
+        top: 20px;
+        left: 20px;
+        -webkit-transform: rotate(0deg);
     }
     25% {
         background-color: green;
-        top: 0px;
-        left: 1450px;
+        top: 20px;
+        left: 1550px;
     }    
     50% {
-        background-color: red;
-        top: 650px;
-        left: 1450px;
+        background-color: yellow;
+        top: 750px;
+        left: 1550px;
     }
     75% {
-        background-color: red;
-        top: 650px;
-        left: 0px;
+        background-color: orange;
+        top: 750px;
+        left: 20px;
     }
     100% {
-        background-color: green;
-        top: 0px;
-        left: 0px;
+        background-color: red;
+        top: 20px;
+        left: 20px;
+        -webkit-transform: rotate(360deg);
     }
 }
 
 .ball6 {
     display: flex;
-    width: 150px;
-    height: 150px;
+    width: 50px;
+    height: 50px;
     border: 1px solid black;
-    background-color: gray;
-    border-radius: 50%;
-    position: relative;
-    -webkit-animation: ball6 5s linear infinite;
+    border-radius: 25%;
+    position: absolute;
+    -webkit-animation: ball6 7s linear infinite;
+    animation-delay: 1000ms;
+
 }
 
 @keyframes ball6 {
     0% {
-        background-color: green;
-        top: 0px;
-        left: 0px;
+        background-color: blue;
+        top: 20px;
+        left: 20px;
+        -webkit-transform: rotate(0deg);
     }
     25% {
         background-color: green;
-        top: 0px;
-        left: 1450px;
+        top: 20px;
+        left: 1550px;
     }    
     50% {
-        background-color: red;
-        top: 650px;
-        left: 1450px;
+        background-color: yellow;
+        top: 750px;
+        left: 1550px;
     }
     75% {
-        background-color: red;
-        top: 650px;
-        left: 0px;
+        background-color: orange;
+        top: 750px;
+        left: 20px;
     }
     100% {
-        background-color: green;
-        top: 0px;
-        left: 0px;
+        background-color: red;
+        top: 20px;
+        left: 20px;
+        -webkit-transform: rotate(360deg);
     }
 }

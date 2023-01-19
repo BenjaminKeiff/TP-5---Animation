@@ -17,29 +17,29 @@
     background-color: gray;
     border-radius: 50%;
     position: relative;
-    -webkit-animation: ball 5s linear infinite;
+    -webkit-animation: ball 2s linear infinite;
 }
 
 @keyframes ball {
     0% {
-        background-color: yellow;
+        background-color: white;
         top: 0px;
     }
-    20% {
-        background-color: white;
+    50% {
         top: 650px;
     }    
-    40% {
-        background-color: white;
+    60% {
         top: 450px;
     }
-    60% {
-        background-color: white;
+    70% {
         top: 650px;
     }
     80% {
-        background-color: white;
         top: 550px;
+    }
+    90% {
+        background-color: white;
+        top: 650px;
     }
     100% {
         background-color: white;
