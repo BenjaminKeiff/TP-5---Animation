@@ -1,0 +1,31 @@
+#carre {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    transform-origin: 50% 50%;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: yellow;
+}
+
+.rotating {
+    background-color: yellow;
+    -webkit-animation: rotating 10s linear infinite;
+}
+
+@keyframes rotating {
+    0% {
+        -webkit-transform: rotate(0deg);
+        background-color: yellow;
+    }
+    50% {
+        background-color: red;
+        -webkit-transform: rotate(360deg);
+    }    
+    100% {
+        -webkit-transform: rotate(0deg);
+        background-color: yellow;
+        
+    }
+}

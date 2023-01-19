@@ -1,0 +1,75 @@
+#rond1 {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+#rond2 {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    position: absolute;
+    top: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    left: 200px;
+}
+
+#rond3 {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    position: absolute;
+    top: 50px;
+    background-color: white;
+    border-radius: 50%;
+    left: 350px;
+}
+
+.ball1 {
+    -webkit-animation: ball1 5s linear infinite;
+}
+
+.ball2 {
+    -webkit-animation: ball2 5s linear infinite;
+}
+
+.ball3 {
+    -webkit-animation: ball3 5s linear infinite;
+}
+
+
+@keyframes ball1 {
+    0% {
+        background-color: black;
+    }
+    33% {
+        background-color: white;
+    }    
+
+}
+
+@keyframes ball2 {
+    34% {
+        background-color: black;
+    }  
+    66% {
+        background-color: white;
+        
+    }
+}
+
+@keyframes ball3 {
+    67% {
+        background-color: black;
+    }
+    100% {
+        background-color: white;
+        
+    }
+}
