@@ -13,7 +13,7 @@
 
 .rotating {
     background-color: yellow;
-    -webkit-animation: rotating 10s linear infinite;
+    animation: rotating 10s linear infinite;
 }
 
 @keyframes rotating {
