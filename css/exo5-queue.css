@@ -6,7 +6,7 @@ p {
     text-shadow: 1px 1px 1px black;
 }
 
-#barre {
+#fond {
     display: flex;
     flex-direction: column;
     width: 1600px;
@@ -14,7 +14,7 @@ p {
     border: 1px solid black;
     top: 50px;
     left: 50px;
-    background-color: rgb(184, 183, 183);
+    background-color: #111111;
 }
 
 .ball1 {
@@ -265,4 +265,32 @@ p {
         left: 20px;
         -webkit-transform: rotate(360deg);
     }
+}
+
+
+footer {
+    position: absolute;
+    margin: 0;
+    padding: 2px;
+    bottom: 0;
+    width: 100%;
+    color: whitesmoke;
+    background-color: #111111;
+    bottom: 0;
+}
+footer h2 {
+    font-size: medium;
+    font-weight: 500;
+    text-align: right;
+    margin-right: 20px;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    position: fixed;
+    bottom: 15px;
+    left: 20px;
 }

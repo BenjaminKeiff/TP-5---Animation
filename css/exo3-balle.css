@@ -1,0 +1,94 @@
+#barre {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 700px;
+    top: 50px;
+    left: 50px;
+    background-image: url(https://img.freepik.com/photos-premium/fond-herbe-verte-terrain-football_41969-2262.jpg?w=2000);
+}
+
+.ball {
+    background-image: url(https://m.media-amazon.com/images/I/81XXY0tT2AL.__AC_SX300_SY300_QL70_ML2_.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    border-radius: 50%;
+    position: relative;
+    -webkit-animation: ball 2s linear infinite;
+}
+
+@keyframes ball {
+    40% {
+        top: 0px;
+    }
+    50% {
+        top: 550px;
+    }    
+    60% {
+        top: 350px;
+    }
+    70% {
+        top: 550px;
+    }
+    80% {
+        top: 450px;
+    }
+    90% {
+        top: 550px;
+    }
+    100% {
+        top: 550px;
+    }
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+h1 {
+    width: 100%;
+    margin: 0;
+    font-weight: 900;
+    text-align: center;
+    font-size: 60px;
+    padding: 25px;
+    background-image: url(../media/formation-java-jee.webp);
+    background-position: center;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
+    text-decoration: none;
+  
+
+}
+h1 a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: whitesmoke;
+    background-color: #111111;
+}
+footer p {
+    text-align: right;
+    margin-right: 20px;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    position: fixed;
+    bottom: 15px;
+    left: 20px;
+}

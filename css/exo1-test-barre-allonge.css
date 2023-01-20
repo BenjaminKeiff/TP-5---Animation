@@ -1,0 +1,66 @@
+.test {
+    margin: 10px;
+    color: blanchedalmond;
+    background-color: #111111;
+    font-size: 20px;
+    height: 25px;
+    text-align: center;
+    transition: 3s;
+    width: 75px;
+    border-radius: 15px;
+}
+
+.test:hover {
+    height: 700px;
+    color: blanchedalmond;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+h1 {
+    width: 100%;
+    margin: 0;
+    font-weight: 900;
+    text-align: center;
+    font-size: 60px;
+    padding: 25px;
+    background-image: url(../media/formation-java-jee.webp);
+    background-position: center;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
+    text-decoration: none;
+  
+
+}
+h1 a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: whitesmoke;
+    background-color: #111111;
+}
+footer p {
+    text-align: right;
+    margin-right: 20px;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    position: fixed;
+    bottom: 15px;
+    left: 20px;
+}
+
+
+

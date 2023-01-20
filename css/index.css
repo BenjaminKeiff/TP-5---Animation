@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(237, 237, 237);
+}
+header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+h1 {
+    width: 100%;
+    margin: 0;
+    font-weight: 900;
+    text-align: center;
+    font-size: 60px;
+    padding: 50px;
+    background-image: url(../media/formation-java-jee.webp);
+    background-position: center;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
+    text-decoration: none;
+  
+
+}
+h1 a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: bolder;
+    background-image: url(../media/fond-vert-code-binaire-vecteur-big-data-piratage-programmation-dechiffrement-chiffrement-profondeur-numeros-streaming-informatique-1-0-concept-codage-hacker_167184-283.webp);
+    background-position: center;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+div {
+
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type:none;
+    padding:20px;
+    margin: 20px;
+    left: 50px;
+    position: relative;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 500;
+    
+}
+
+nav ul li a {
+    padding: 20px;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+    color: black;
+    transition: 0.5s;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+nav ul li a:hover {
+    height: 32px;
+    font-size: 18px;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px black;
+    background-image: url(../media/formation-java-jee.webp);
+    color: whitesmoke;
+    text-decoration: double;
+    border-top-color: whitesmoke;
+    border-bottom-color: whitesmoke;
+    border-left-color: whitesmoke;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: whitesmoke;
+    background-color: #111111;
+}
+footer p {
+    text-align: right;
+    margin-right: 25px;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    position: fixed;
+    bottom: 15px;
+    left: 20px;
+}

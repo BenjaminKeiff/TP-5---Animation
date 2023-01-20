@@ -1,0 +1,80 @@
+
+#carre {
+    top: 50%;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    transform-origin: 50% 50%;
+    position: absolute;
+
+    background-color: yellow;
+}
+
+.rotating {
+    background-color: yellow;
+    -webkit-animation: rotating 10s linear infinite;
+}
+
+@keyframes rotating {
+    0% {
+        -webkit-transform: rotate(0deg);
+        background-color: yellow;
+    }
+    50% {
+        background-color: red;
+        -webkit-transform: rotate(360deg);
+    }    
+    100% {
+        -webkit-transform: rotate(0deg);
+        background-color: yellow;
+        
+    }
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+h1 {
+    width: 100%;
+    margin: 0;
+    font-weight: 900;
+    text-align: center;
+    font-size: 60px;
+    padding: 25px;
+    background-image: url(../media/formation-java-jee.webp);
+    background-position: center;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
+    text-decoration: none;
+  
+
+}
+h1 a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: whitesmoke;
+    background-color: #111111;
+}
+footer p {
+    text-align: right;
+    margin-right: 20px;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    position: fixed;
+    bottom: 15px;
+    left: 20px;
+}
